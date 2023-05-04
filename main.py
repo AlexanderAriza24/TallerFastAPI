@@ -13,7 +13,7 @@ def read_root():
 @app.get("/mensaje/hello")
 def read_root():
     return {"message": "Hello FastAPI"}
-"""
+
 @app.get("/isPrime/{number}")
 def read_number_prime(number: int):
     if is_prime(number):
@@ -27,4 +27,3 @@ def read_number_fibonacci(number: int):
         return {"error": "La posición debe ser un número entero positivo mayor o igual a 1"}
     else:
         return {"el numero es": fibonacci(number)}
-"""
