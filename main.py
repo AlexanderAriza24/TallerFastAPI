@@ -25,5 +25,7 @@ def read_number_prime(number: int):
 def read_number_fibonacci(number: int):
     if number < 1:
         return {"error": "La posición debe ser un número entero positivo mayor o igual a 1"}
+    elif number == 1:
+        return {"el numero es": 1}
     else:
         return {"el numero es": fibonacci(number)}
