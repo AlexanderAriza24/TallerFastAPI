@@ -1,4 +1,5 @@
 from main import *
+import pytest
 
 def test_fun_is_prime():
     assert read_number_prime(2) == {"is_prime": True}
